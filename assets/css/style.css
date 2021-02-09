@@ -583,12 +583,15 @@ section {
 --------------------------------------------------------------*/
 .portDetails{
   width:70vw ;
-  height: 90vh ;
   background-color: #202125;
   z-index: 9999;
+  box-shadow: 5px 10px 8px rgb(124, 124, 124);
 }
 .modalBGC{
   background-color: #202125;
+}
+.modalSHD {
+  box-shadow: 5px 10px 8px rgb(124, 124, 124);
 }
 
 @media (max-width: 768px) {
